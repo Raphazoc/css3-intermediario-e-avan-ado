@@ -13,11 +13,10 @@ li {
 
 }
 
-*/
 
 
 
-/* LISTA */
+
 
 ul {
     margin: 0;
@@ -31,11 +30,11 @@ ul a {
     display: block;
     color: #000;
     text-decoration: none;
-    text-indent: 40px; /*Identar o texto, como um padding*/
+    text-indent: 40px; 
     line-height: 40px;
     background: #f7b600 url(../imagens/menu.png) no-repeat left bottom;
 }
-a:hover { /* Movimentação do background*/
+a:hover { 
     background-position: right bottom;
     background-color: #f99200;
     color: #FFF;
@@ -47,4 +46,99 @@ a:hover { /* Movimentação do background*/
     background-position: right bottom;
     background-color: #f99200;
     color: #FFF;
+} 
+*/
+ /*Barra de Navegação vertical e horizontal*/
+
+/*
+ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+width: 720px;
+background: #159cb0 url(../imagens/fundo-horizontal.png) repeat-x; /* Repetir na horizontal
+float: left;
+}
+ul li {
+    float: left; 
+}
+
+ul a {
+display: block;
+padding: 0 2em;
+line-height: 2em;
+text-decoration: none;
+color: white;
+background: url(../imagens/divisor.png) repeat-y; /* Repetir na vertical
+}
+
+ul .primeiro a {
+    background: none;
+}
+
+ul a:hover {
+    color: #085662;
+    background: #44cade;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a {
+    color: #085662;
+    background: #44cade;
+} 
+
+
+
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+}
+
+ul li {
+    float: left;
+    background: url(../imagens/aba-direita.png) no-repeat top right;
+}
+li a {
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;
+    text-decoration: none;
+    background: url(../imagens/aba-esquerda.png) no-repeat top left;
+    color: white;
+}
+
+ul a:hover {
+    color: #894a1f;
+}
+
+ul #atual {
+    background: url(../imagens/aba-direita-atual.png) no-repeat top right;
+}
+
+ul #atual a {
+    background: url(../imagens/aba-esquerda-atual.png) no-repeat top left;
+}
+
+*/ 
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+#container {
+    width: 720px;
+    margin: 0 auto;
+    background: #fff;
+}
+#marca {
+    height: 100px;
+    background: #9E9E9E;
+    text-align: center;
+    line-height: 100px;
 }
