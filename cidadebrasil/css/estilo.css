@@ -70,6 +70,13 @@ body.fotos #navegacao a#fotos
     cursor: text;
 
 }
+a:link, a:visited {
+    color: #b10333;
+    padding: 2px;
+}
+a:hover{
+     color: #e50040;
+}
 
 
 /*Caixa*/
@@ -90,11 +97,46 @@ h2{
     margin-top: 5px;
 }
 
+/*Formatar menus laterais*/
 
+#lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
 
+}
+
+#lateral ul a:hover {
+    color: #a1a1a1;
+    background: #f9f9f9 url(../imagem/marcador.png) no-repeat left center;
+    padding-left: 20px;
+}
+/* Formatar Formulários*/
+
+label {
+    display: block;
+    cursor: pointer;
+}
+input {
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    cursor: pointer;
+}
 
  /*Conteúdo*/
-#conteudo {
+#conteudo { /* # São ID'S*/
     background: #f5f5f5;
     margin-top: 60px;
 }
@@ -106,14 +148,13 @@ h2{
 
 #primario {
     width: 270px;
-    
     float: left;
     margin: 0 0 20px 195px;
 }
 #duas-colunas #primario {
     width: 555px;
 }
-#uma-colunas #primario {
+#uma-coluna #primario {
     width: 750px;
     margin: 0 0 20px 0;
 }
@@ -124,7 +165,57 @@ h2{
     
 }
 
+/*Formatando Área de Conteúdo*/
+img.imagem-principal {
+    border: 3px solid #dfdfdf;
+    width: 98%;
+}
+h3 {
+    text-transform: uppercase; /*Deixa a Letra Maiúscula*/
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+.destaque h3 {
+background: #b10333;
+color: #fff;
+}
 
+.entrevista h3 {
+    background: #de003e;
+    color: black;
+    
+    }
+
+/*Formatando Lista de Notícias*/
+#lista-noticias li {
+    padding: 2px;
+    height: 62px;
+}
+#lista-noticias li a img {
+float: left;
+margin: 5px;    
+}
+#lista-noticias li a {
+       text-decoration: none;
+       font-size: 0.8em;
+
+}
+#lista-noticias li a h3 {
+    padding: 0;
+    color: #3e7ab9;
+    font-size: 1.0em;
+}
+
+#lista-noticias li a p {
+    font-size: 0.8.5em;
+
+}
+#lista-noticias li:hover {
+    background: #eee;
+    cursor: pointer;
+
+}
 
 
 
